@@ -1,0 +1,37 @@
+.image-slider{
+    padding-top:100px;
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(./../image/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+}
+.arrow-lift,
+.arrow-right{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.arrow-lift :hover,
+.arrow-right :hover{
+    background-color: #000;
+    color: #fff;
+}
+.arrow-lift{
+    left: 10px;
+}
+.arrow-right{
+    right: 10px;
+}
